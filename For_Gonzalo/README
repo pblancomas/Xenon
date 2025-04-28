@@ -1,0 +1,9 @@
+matriz.txt: (X Y CHI2) de mi fit de COHERENT para extraer banda de 90%. Debería quedar como en COHERENT.png. Es una matriz 120x120. X es m_Z, de 1 a 1000 MeV, Y es g_Z, de 1e-3 a 1e-7.
+
+vector_pd_paired(_neg).txt: directamente una matriz con el número de eventos N_sig para panda paired con interferencia constructiva (destructiva). El límite más conservador (ver panda_paired.png, izquierda) lo da la interferencia destructiva, así que habría que usar el archivo _neg.txt para extraer la región, donde la zona que no podemos excluir tiene N_sig entre (-2.10, 2.01)
+
+
+vector_xe_paired(_neg).txt: directamente una matriz con el número de eventos N_sig para xenon paired con interferencia constructiva (destructiva). El límite más conservador (ver xenon_paired.png, izquierda) lo da la interferencia destructiva, así que habría que usar el archivo _neg.txt para extraer la región, donde la zona que no podemos excluir tiene N_sig entre (-10.50, 9.71)
+
+
+vector_S2(_neg).txt: directamente una matriz con el número de eventos N_sig para panda S2 ONLY con interferencia constructiva (destructiva). El límite más conservador (ver panda_s2.png, derecha) lo da la interferencia constructiva, y la banda fina de la destructiva, así que habría que usar el archivo vector_S2.txt para extraer la región grande donde la zona que no podemos excluir tiene N_sig entre (0, 40.54), y el archivo vector_S2_neg para extraer la banda fina, con N_sig en (-9.95, 40.54)
